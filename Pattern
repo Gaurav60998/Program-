@@ -1,0 +1,167 @@
+package s;
+
+public class d {
+public static void main(String[] args) {
+	char n=5;
+	for (char i = n; i>=1; i--) {
+		for (char j = n; j >i; j--) {
+			System.out.print(" ");
+		}
+for (char k = 1; k <=i; k++) {
+	System.out.print("* ");
+}
+System.out.println();
+	}
+	
+System.out.println("---------------");
+	
+for (int i = 1; i <=n; i++) {
+	for (int j = 1; j <=n; j++) {
+		if (i==1||i==n||j==1||j==n) {
+			System.out.print(" * ");
+		} else {
+ System.out.print("  ");
+		}
+		
+	}
+	System.out.println();
+	
+}
+System.out.println("---------------");
+
+for (int i = 1; i<=5; i++) {
+	for (int j = 1; j<=(n-i); j++) {
+		System.out.print(" ");
+	}
+for (int k = 1; k <=(2*i)-1; k++) {
+if (k==1||k==(2*i)-1||i==n) {
+	System.out.print("*");
+} else {
+System.out.print(" ");
+}
+}
+System.out.println();
+}
+for (int i = n-1; i>=1; i--) {
+	for (int j = 1; j<=(n-i); j++) {
+		System.out.print(" ");
+	}
+for (int k = 1; k <=(2*i)-1; k++) {
+if (k==1||k==(2*i)-1||i==n) {
+	System.out.print("*");
+} else {
+System.out.print(" ");
+}
+
+}
+System.out.println();
+}
+
+System.out.println("---------------");
+
+for (int i = 1; i<=5; i++) {
+	for (int j = 1; j<=(n-i); j++) {
+		System.out.print(" ");
+	}
+for (int k = 1; k <=i; k++) {
+if (k==1||k==i||i==n) {
+	System.out.print("*");
+} else {
+System.out.print(" ");
+}
+}
+System.out.println();
+}
+for (int i = n-1; i>=1; i--) {
+	for (int j = 1; j<=(n-i); j++) {
+		System.out.print(" ");
+	}
+for (int k = 1; k <=i; k++) {
+if (k==1||k==i||i==n) {
+	System.out.print("*");
+} else {
+System.out.print(" ");
+}
+
+}
+System.out.println();
+}
+
+System.out.println("---------------");
+for (char i = 1; i<=n; i++) {
+	for (char j = n; j <=i; j++) {
+		System.out.print("");
+	}
+for (char k = 1; k <=i; k++) {
+System.out.print("* ");
+}
+System.out.println();
+}
+System.out.println("---------------");
+for (char i = 1; i<=n; i++) {
+	for (char j = 1; j <=i; j++) {
+		System.out.print("*");
+	}
+for (char k = 1; k <=2*(n-i); k++) {
+System.out.print(" ");
+}
+for (int l = 1; l <=i; l++) {
+	System.out.print("*");
+}
+System.out.println();
+}
+System.out.println("---------------");
+
+for (int i = 1; i<=5; i++) {
+	for (int j = 1; j<=(n-i); j++) {
+		System.out.print(" ");
+	}
+for (int k = 1; k <=(2*i)-1; k++) {
+if (k==1||k==(2*i)-1||i==n) {
+	System.out.print("*");
+} else {
+System.out.print("*");
+}
+}
+System.out.println();
+}
+for (int i = n-1; i>=1; i--) {
+	for (int j = 1; j<=(n-i); j++) {
+		System.out.print(" ");
+	}
+for (int k = 1; k <=(2*i)-1; k++) {
+if (k==1||k==(2*i)-1||i==n) {
+	System.out.print("*");
+} else {
+System.out.print("*");
+}
+
+}
+System.out.println();
+}
+
+System.out.println("---------------");
+for (char i = 1; i<=n; i++) {
+	for (char j = n; j <=i; j++) {
+		System.out.print("");
+	}
+for (char k = 1; k <=i; k++) {
+System.out.print("* ");
+}
+System.out.println();
+}
+System.out.println("---------------");
+for (char i = n; i>=1; i--) {
+	for (char j = 1; j <=i; j++) {
+		System.out.print("*");
+	}
+for (char k = 1; k <=2*(n-i); k++) {
+System.out.print(" ");
+}
+for (int l = 1; l <=i; l++) {
+	System.out.print("*");
+}
+System.out.println();
+}
+}
+}
